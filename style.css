@@ -1,32 +1,33 @@
 li {
-    
-    
+    margin: 0;
+    padding: 0
 }
 
 .header {
     background-color: #2dc108;
     color: #0a0a0a;
     height: 110px;
-    padding: 20px;
+    padding: 40px;
+    margin: 0;
 }
 
 .header-logo {
     font-size: 50px;
     float: left;
-    padding: 20px 40px;
+    padding: 30px 50px;
 }
 
 
 .header-list {
     float: right;
-    padding: 33px 20px;
+    padding: 35px 25px;
 }
 
 .footer {
     background-color: #2dc108;
     color: #0a0a0a;
     height: 110px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .footer-logo {
@@ -68,5 +69,14 @@ form {
     background-color:#fafafa;
     color:#20a009;
 }
-
-
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
